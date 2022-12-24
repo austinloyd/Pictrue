@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Austin.CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* width of sidebar(icons) */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Adding equal margins wrt page content */
+    #main {margin-left: 120px}
+    /* This is a bit of dynamic tinge to the program, as shown in class, this program changes layout if seen on a mobile */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Using my blog's logo on top page, hyperlinking it to my blog directly as a part of my brands. -->
+  
+  <a href="https://therevviewer.blogspot.com/"><img src="C:\Users\HP\Desktop\therevviewercom-high-resolution-logo-white-on-black-background.png" style="width:100%">
+  </a>
+  <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Dynamic code acc to screen size, top tab -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Austin Loyd.</h1>
+    <p>Programmer, Auto Enthusiast & Journalist, Rookie Photographer.</p>
+    <img src="D:\AUSTIN\SM M30 malloc\Camera\IMG-20221026-WA0002.jpg" alt="boy" class="w3-image" width="500" height="500"
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Moi</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Hi, I am Austin. I am currently a grade 12 student aspiring for JEE (M+Adv). I am a member of the "CS50x" course by the Harward University. Robotics and AI is my sweet spot of tinkering and developing. I am a problem solver by nature with abundance of positive spirit to drive my team to success. I Love road trips, be it on a cycle, bike or a car, as long as im driving. I follow music like a religion. I enjoy outdoor activities like trekking, swimming, Go-Karting etc. Automation and Automobiles play a big role in my life as everything i do revolve arround it. Racing and Endurance events hold a special place it me as i have great intrests in them. All in all, doing everything I can to make the most of my Callibrand youth.
+    </p>
+    
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+    <h3 class="w3-padding-16 w3-text-white">My Skills</h3>
+    <div class="w3-half">
+      <p><ul>
+      <li>Programming</li>
+      <li>Writing</li>
+      <li>Photography</li>
+      <li>Robotics</li>
+      <li>AUD-VID Editing</li>
+      </ul></p>
+    </div>  
+    <div class="w3-half">
+      <p><ul>
+      <li>Cycling</li>
+      <li>Jr. Karting</li>
+    	<li>Aurdino Projects</li>
+      </ul></p>
+      <br>
+    </div>
+    <br>
+  </div>    
+    
+<br>    
+<p>     
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <p>Few photos i've clicked... </p>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="C:\Users\HP\Desktop\IMG-20220517-WA0004.jpg" style="width:100%">
+        <img src="C:\Users\HP\Desktop\IMG-20220517-WA0010.jpg" style="width:100%">
+        <img src="C:\Users\HP\Desktop\5.1.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="C:\Users\HP\Desktop\IMG-20220605-WA0055.jpg" style="width:100%">
+        <img src="C:\Users\HP\Desktop\IMG-20220517-WA0005.jpg" style="width:100%">
+        <img src="C:\Users\HP\Desktop\IMG_20220103_172437_599.jpg" height = 700 style="width:90%" >
+      </div>
+    </div>
+  </div>
+</p>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Pune, Maharashtra, IND</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 9175509079</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: aloyd2025@gmail.com</p>
+    </div><br>
+  </div>
+  
+<!-- Social media pins -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+	<a href= "https://www.instagram.com/"
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  </a>
+  <a href= "https://twitter.com/AustinLoyd19"
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  </a>
+  <a href= "https://www.linkedin.com/in/austin-loyd-8939a124a/"
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </a>
+  
+</footer>
+</div>
+</body>
+</html>
